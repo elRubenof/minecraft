@@ -1,8 +1,0 @@
-#Sat Jun 17 14:26:37 CEST 2023
-shadowMapResolution=1024
-cloudVolumeEnabled=false
-shadowFilterIterations=9
-motionblurToggle=false
-shadowVPSEnabled=false
-cloudVolume1Enabled=false
-fogVolumeEnabled=false

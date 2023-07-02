@@ -1,0 +1,209 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-right
+  x = -212
+  action = movebutton
+  y = 7
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 39
+  action = movebutton
+  y = -14
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Ajustes
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-centered
+  x = -174
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = SALIR
+}
+
+customization {
+  identifier = %id=604322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 39
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-right
+  x = -388
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 79
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 27818696-f496-4efa-b5e4-95cf4caddaeb1688136538443
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = a5d62f43-9501-4da3-8490-1e9f5dfa2a061688136538443
+  y = 198
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 198
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = edfa35fa-0cb1-4da3-8367-af87c21f48981688136538443
+  y = 220
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 316
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = ed36ab74-30ed-4383-8643-f3b5e2ae38bf1688136538443
+  y = 160
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 76
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = d9dce4d4-cc43-4c28-ba56-a0a6cd435b921688136538443
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 1ecf3330-b32e-4207-8a8f-a5c0c61f23d21688136538443
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  hoverlabel = 
+  restartbackgroundanimations = true
+  x = 39
+  width = 98
+  action = addbutton
+  actionid = 64c9d772-1560-40c1-9d73-cb52f8f009c91688136573665
+  y = 62
+  label = Entrar al Servidor
+  height = 14
+}
+
+customization {
+  path = config/simplesplashscreen/banner.png
+  orientation = top-left
+  x = 24
+  width = 132
+  action = addtexture
+  actionid = febe552e-fc66-4841-b5d3-63d2d2d564971688136954972
+  y = 20
+  height = 30
+}
+

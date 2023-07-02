@@ -1,0 +1,275 @@
+[20:23:19] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[20:23:19] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[20:23:19] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[20:23:19] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[20:23:19] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.coremod.compatibility.journeymap.JourneymapPlugin
+[20:23:19] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.railwayteam.railways.compat.journeymap.RailwayMapPlugin
+[20:23:19] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[20:23:19] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:23:19] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[20:23:19] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.7, built with forge 1.18.2-40.1.86
+forge: 40.2.9
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=es_es, locale=en_us
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-75, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.7, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.7, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.7, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.7, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[20:23:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[20:23:19] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 271,02ms
+[20:23:35] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[20:23:35] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[20:23:35] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[20:23:35] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[20:23:35] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 171,33ms
+[20:24:06] [Netty Client IO #2/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[20:24:19] [Render thread/INFO] [JourneymapClient] World UID is set to: 8e64496d-588c-4259-bd29-a469131ca42d
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Teleport Enabled:true
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Expanded Radar Enabled:true
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Server Admin Enabled:true
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Server set show in-game beacons:true
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Server set waypoints allowed:true
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Server set Server Admin read only mode:true
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Server set maximum map render range to:0
+[20:24:19] [Render thread/DEBUG] [InternalStateHandler] Server set allow mutliplayer options:true
+[20:24:19] [Render thread/INFO] [FeatureManager] Feature disabled: MapSurface
+[20:24:19] [Render thread/INFO] [FeatureManager] Feature disabled: MapTopo
+[20:24:19] [Render thread/INFO] [FeatureManager] Feature disabled: MapBiome
+[20:24:19] [Render thread/INFO] [FeatureManager] Feature disabled: MapCaves
+[20:24:19] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[20:24:19] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[20:24:19] [Render thread/INFO] [FeatureManager] Feature disabled: RadarPlayers
+[20:24:19] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[20:24:20] [Render thread/DEBUG] [JourneymapClient] World UID hasn't changed: 8e64496d-588c-4259-bd29-a469131ca42d
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Teleport Enabled:true
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Expanded Radar Enabled:true
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Server Admin Enabled:true
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Server set show in-game beacons:true
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Server set waypoints allowed:true
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Server set Server Admin read only mode:true
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Server set maximum map render range to:0
+[20:24:20] [Render thread/DEBUG] [InternalStateHandler] Server set allow mutliplayer options:true
+[20:24:22] [Render thread/DEBUG] [StatTimer] pluginClientEvent_minecolonies warmup done, 1
+[20:24:22] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:24:22] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[20:24:23] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[20:24:23] [Render thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
+[20:24:23] [Render thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
+[20:24:23] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\mp\Servidor~de~Minecraft_8e64496d~588c~4259~bd29~a469131ca42d\waypoints
+[20:24:23] [Render thread/DEBUG] [TaskController] Task not initially enabled: MapRegionTask
+[20:24:23] [Render thread/DEBUG] [TaskController] Task not initially enabled: SaveMapTask
+[20:24:23] [Render thread/DEBUG] [TaskController] Task ready: MapPlayerTask
+[20:24:23] [Render thread/DEBUG] [TaskController] Task ready: InitColorManagerTask
+[20:24:23] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\mp\Servidor~de~Minecraft_8e64496d~588c~4259~bd29~a469131ca42d\overworld. Memory: 7232MB total, 2561MB free 
+[20:24:23] [Render thread/DEBUG] [JourneymapClient] World UID hasn't changed: 8e64496d-588c-4259-bd29-a469131ca42d
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Teleport Enabled:true
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Expanded Radar Enabled:true
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Server Admin Enabled:true
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Server set show in-game beacons:true
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Server set waypoints allowed:true
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Server set Server Admin read only mode:true
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Server set maximum map render range to:0
+[20:24:23] [Render thread/DEBUG] [InternalStateHandler] Server set allow mutliplayer options:true
+[20:24:23] [Render thread/INFO] [FeatureManager] Feature disabled: MapSurface
+[20:24:23] [Render thread/INFO] [FeatureManager] Feature disabled: MapTopo
+[20:24:23] [Render thread/INFO] [FeatureManager] Feature disabled: MapBiome
+[20:24:23] [Render thread/INFO] [FeatureManager] Feature disabled: MapCaves
+[20:24:23] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[20:24:23] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[20:24:23] [Render thread/INFO] [FeatureManager] Feature disabled: RadarPlayers
+[20:24:23] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[20:24:23] [Render thread/DEBUG] [JourneymapClient] World UID hasn't changed: 8e64496d-588c-4259-bd29-a469131ca42d
+[20:24:25] [Render thread/DEBUG] [StatTimer] TaskController.performMultithreadTasks warmup done, 1
+[20:24:33] [Render thread/DEBUG] [StatTimer] GridRenderer.updateTiles(1) warmup done, 5
+[20:24:33] [Render thread/DEBUG] [StatTimer] GridRenderer.updateTiles(2) warmup done, 5
+[20:24:33] [Render thread/WARN] [TextureCache] Image not found: Invalid relative path to resource: minecraft:../src/main/resources/assets/journeymap/theme/flat/icon/none.png
+[20:24:33] [Render thread/ERROR] [TextureCache] Unknown theme image: flat/icon/none.png
+[20:24:33] [Render thread/DEBUG] [StatTimer] TileDrawStep.draw(low) warmup done, 10
+[20:24:33] [Render thread/INFO] [ChatLog] 
+[20:24:35] [Render thread/DEBUG] [StatTimer] MiniMap1.Circle warmup done, 100
+[20:24:35] [Render thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{` = Alternar entre día/noche/cueva}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{Ç = Cambiar mini mapa presente}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{¡ = Acercar}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{' = Alejar}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{B = Waypoint Manager}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{Z = Toggle all Waypoints}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + J = Show / Hide MiniMap}, KeyBindingAction{J = Mostrar/esconder mapa en pantalla completa}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{` = Alternar entre día/noche/cueva}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{Ç = Cambiar mini mapa presente}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{' = Crear waypoint}, KeyBindingAction{' = Alejar}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{¡ = Acercar}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{B = Create Waypoint (at cursor)}, KeyBindingAction{B = Waypoint Manager}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{C = Chat Position (at cursor)}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{FLECHA DERECHA = Pan East (16 Blocks)}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{FLECHA IZQUIERDA = Pan West (16 Blocks)}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{FLECHA ABAJO = Pan South (16 Blocks)}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{H = Disable Fullscreen Buttons}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{FLECHA ARRIBA = Pan North (16 Blocks)}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{J = Mostrar/esconder mapa en pantalla completa}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{' = Alejar}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{O = Options Manager}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{` = Alternar entre día/noche/cueva}]
+[20:25:12] [Render thread/DEBUG] [KeyEventHandler] [KeyBindingAction{¡ = Acercar}]
+[20:27:14] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\mp\Servidor~de~Minecraft_8e64496d~588c~4259~bd29~a469131ca42d\minecraft:overworld
+[20:27:14] [Render thread/DEBUG] [TaskController] Task disabled: MapPlayerTask
+[20:27:14] [Render thread/DEBUG] [TaskController] Task disabled: InitColorManagerTask
+[20:27:21] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[20:27:21] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[20:31:35] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[20:31:42] [Server thread/INFO] [PropertiesBase] global (FirstLoaded) Setting config file to version "5.9.7": journeymap.server.global.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] global (Valid) Creating config file: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\server\5.9\journeymap.server.global.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] default (FirstLoaded) Setting config file to version "5.9.7": journeymap.server.default.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] default (Valid) Creating config file: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\server\5.9\journeymap.server.default.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] minecraft~overworld (Initialized) Setting config file to version "5.9.7": journeymap.server.minecraft~overworld.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] minecraft~overworld (Valid) Creating config file: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\server\5.9\journeymap.server.minecraft~overworld.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] minecraft~the_nether (Initialized) Setting config file to version "5.9.7": journeymap.server.minecraft~the_nether.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] minecraft~the_nether (Valid) Creating config file: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\server\5.9\journeymap.server.minecraft~the_nether.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] minecraft~the_end (Initialized) Setting config file to version "5.9.7": journeymap.server.minecraft~the_end.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] minecraft~the_end (Valid) Creating config file: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\server\5.9\journeymap.server.minecraft~the_end.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] bloodmagic~dungeon (Initialized) Setting config file to version "5.9.7": journeymap.server.bloodmagic~dungeon.config
+[20:31:42] [Server thread/INFO] [PropertiesBase] bloodmagic~dungeon (Valid) Creating config file: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\server\5.9\journeymap.server.bloodmagic~dungeon.config
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Teleport Enabled:false
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Expanded Radar Enabled:true
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Server Admin Enabled:false
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Server set show in-game beacons:true
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Server set waypoints allowed:true
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Server set Server Admin read only mode:true
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Server set maximum map render range to:0
+[20:31:54] [Render thread/DEBUG] [InternalStateHandler] Server set allow mutliplayer options:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Teleport Enabled:false
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Expanded Radar Enabled:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server Admin Enabled:false
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set show in-game beacons:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set waypoints allowed:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set Server Admin read only mode:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set maximum map render range to:0
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set allow mutliplayer options:true
+[20:31:55] [Render thread/DEBUG] [StatTimer] pluginClientEvent_minecolonies warmup done, 1
+[20:31:55] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:31:55] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[20:31:55] [Render thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
+[20:31:55] [Render thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
+[20:31:55] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\waypoints
+[20:31:55] [Render thread/DEBUG] [TaskController] Task not initially enabled: MapRegionTask
+[20:31:55] [Render thread/DEBUG] [TaskController] Task not initially enabled: SaveMapTask
+[20:31:55] [Render thread/DEBUG] [TaskController] Task ready: MapPlayerTask
+[20:31:55] [Render thread/DEBUG] [TaskController] Task ready: InitColorManagerTask
+[20:31:55] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld. Memory: 12288MB total, 4122MB free 
+[20:31:55] [Render thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Teleport Enabled:false
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Expanded Radar Enabled:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server Admin Enabled:false
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set show in-game beacons:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set waypoints allowed:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set Server Admin read only mode:true
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set maximum map render range to:0
+[20:31:55] [Render thread/DEBUG] [InternalStateHandler] Server set allow mutliplayer options:true
+[20:31:56] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:31:56] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:31:56] [JM-task-4/DEBUG] [StatTimer] ImageHolder.partialImageUpdate warmup done, 5
+[20:31:56] [JM-task-4/DEBUG] [StatTimer] SurfaceRenderer.renderSurface warmup done, 10
+[20:31:56] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:31:56] [JM-task-4/DEBUG] [StatTimer] TopoRenderer.renderSurface warmup done, 10
+[20:31:56] [JM-task-4/DEBUG] [StatTimer] BiomeRenderer.renderSurface warmup done, 10
+[20:31:56] [Render thread/DEBUG] [StatTimer] GridRenderer.updateTiles(1) warmup done, 5
+[20:31:56] [Render thread/DEBUG] [StatTimer] GridRenderer.updateTiles(2) warmup done, 5
+[20:31:56] [Render thread/DEBUG] [StatTimer] TileDrawStep.draw(low) warmup done, 10
+[20:31:57] [Render thread/DEBUG] [StatTimer] MiniMap1.Circle warmup done, 100
+[20:31:58] [Render thread/DEBUG] [StatTimer] TaskController.performMultithreadTasks warmup done, 1
+[20:31:59] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:31:59] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:31:59] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:02] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:02] [JM-task-4/DEBUG] [StatTimer] MapPlayerTask.performTask warmup done, 5
+[20:32:05] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:05] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:05] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:05] [Render thread/DEBUG] [StatTimer] MapState.refresh warmup done, 10
+[20:32:08] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:08] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:08] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:08] [Render thread/DEBUG] [StatTimer] MiniMap1.Circle+refreshState warmup done, 5
+[20:32:11] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:11] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:11] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:13] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:16] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:16] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:16] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:18] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:18] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:18] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:20] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:20] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:20] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:20] [Render thread/DEBUG] [StatTimer] MapState.generateDrawSteps warmup done, 10
+[20:32:22] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:22] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:22] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:23] [Render thread/DEBUG] [StatTimer] MapPlayerTask.Manager.getTask warmup done, 10
+[20:32:24] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:24] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:24] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:24] [Render thread/DEBUG] [StatTimer] EntityHelper.getPlayersNearby warmup done, 10
+[20:32:26] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:26] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:26] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 11
+[20:32:29] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:32] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:35] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:36] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 31
+[20:32:36] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 31
+[20:32:36] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 31
+[20:32:36] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 31
+[20:32:39] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:39] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 31
+[20:32:39] [JM-task-4/DEBUG] [RenderSpec] Map Render distance set to: 31
+[20:32:42] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:43] [Render thread/DEBUG] [StatTimer] EntityHelper.getVillagersNearby warmup done, 10
+[20:32:45] [Render thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:32:45] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[20:32:45] [Render thread/DEBUG] [TaskController] Task disabled: MapPlayerTask
+[20:32:45] [Render thread/DEBUG] [TaskController] Task disabled: InitColorManagerTask
+[20:32:45] [IO-Worker-48/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\night\0,0.png
+[20:32:45] [IO-Worker-35/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\biome\-1,-1.png
+[20:32:45] [IO-Worker-40/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\night\0,-1.png
+[20:32:45] [IO-Worker-38/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\day\0,-1.png
+[20:32:45] [IO-Worker-47/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\topo\0,0.png
+[20:32:45] [IO-Worker-49/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\biome\0,0.png
+[20:32:45] [IO-Worker-42/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\day\-1,0.png
+[20:32:45] [IO-Worker-36/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\night\-1,-1.png
+[20:32:45] [IO-Worker-44/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\night\-1,0.png
+[20:32:45] [IO-Worker-41/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\biome\0,-1.png
+[20:32:45] [IO-Worker-32/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\topo\-1,-1.png
+[20:32:45] [IO-Worker-43/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\topo\-1,0.png
+[20:32:45] [IO-Worker-39/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\topo\0,-1.png
+[20:32:45] [IO-Worker-45/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\biome\-1,0.png
+[20:32:45] [IO-Worker-37/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\day\-1,-1.png
+[20:32:45] [IO-Worker-46/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Tony\AppData\Roaming\.minecraft\journeymap\data\sp\Mundo nuevo\overworld\day\0,0.png
+[20:32:46] [Server thread/DEBUG] [StatTimer] pluginClientEvent_minecolonies warmup done, 1

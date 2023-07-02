@@ -1,0 +1,10 @@
+
+#Todas las configuraciones respecto al juego base
+[gameplay]
+	#minecolonies.config.enablecitizenvoices.comment [Predeterminado: true]
+	enablecitizenvoices = true
+	#Por defecto, al colocar un plano cerca de otros edificios, los edificios ya colocados se mostrarán como si estuvieran en el nivel 5 y tendrán un contorno azul alrededor. Puedes deshabilitarlo poniéndolo como "false". [Predeterminado: true]
+	neighborbuildingrendering = true
+	#Cuando es "true", los bordes de la colonia que se muestran cuando se sostiene la herramienta de construcción serán del color del equipo de la colonia. Cuando es "false", la colonia en la que te encuentras será blanca y cualquier otra colonia será roja. [Predeterminado: true]
+	colonyteamborders = true
+
