@@ -1,0 +1,7 @@
+[0703/113258.633:INFO:main_context.cpp(136)] CEF initialized successfully.
+[0703/113258.633:INFO:main_context.cpp(138)] CEF version: 99.2.14+g3f796b8+chromium-99.0.4844.84
+[0703/113258.721:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0703/113259.415:INFO:CONSOLE(2)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://mojang/launcher/static/js/app.27606204.bundle.js (2)
+[0703/113336.346:WARNING:frame_host_impl.cc(533)] SendProcessMessage sent to detached mainframe 21474836481 [5,1] will be ignored
+[0703/113336.346:INFO:LauncherAppRenderer.cpp(542)] OnContextReleased: no frame (unknown context), browser id=1
+[0703/113458.899:ERROR:gpu_init.cc(440)] Passthrough is not supported, GL is disabled, ANGLE is 

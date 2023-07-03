@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/Tony/AppData/Roaming/.minecraft/saves/Mundo nuevo
+  is_server = true
+  world = 192.168.1.210:25565
 }
 

@@ -1,0 +1,11 @@
+{
+  "channel" : "release",
+  "customChannels" : [],
+  "deviceId" : 8967180657130118073,
+  "formatVersion" : 0,
+  "locale" : "es-ES",
+  "productLibraryDir" : "C:\\Users\\Tony\\AppData\\Local\\Mojang\\products",
+  "useArm64JreIfSupported" : false,
+  "useMagnifiedMode" : false,
+  "version" : 4
+}
